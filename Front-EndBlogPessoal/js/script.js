@@ -24,7 +24,7 @@ function validarNome() {
 function validarEmail() {
     let txtEmail = document.querySelector("#txtEmail");
 
-    if (email.value.indexOf("@") == -1 || email.value.indexOf(".") == -1) {
+    if (email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1) {
         txtEmail.innerHTML = "E-mail inválido";
         txtEmail.style.color = "red";
         emailOk = false;
